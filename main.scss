@@ -1,0 +1,24 @@
+
+body, html {
+  margin: 0;
+  height: 100vh;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background: rgb(238, 238, 238);
+  font-family: 'nunito', sans-serif;
+}
+
+.card {
+  padding: 0 5em;
+
+  &__img {
+    display: block;
+    height: 100px;
+    width: 100%;
+    background: blue;
+  }
+}
