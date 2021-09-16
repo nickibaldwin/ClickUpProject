@@ -1,0 +1,106 @@
+
+body {
+  position: relative;
+width: 1600px;
+height: 4350px;
+
+background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+}
+
+.nav {
+
+  &__list {
+    position: absolute;
+    display: flex;
+    list-style-type: none;
+    width: 35px;
+    height: 26px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4B5D68;
+    margin-top: 64px;
+  }
+
+  &__purple {
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+    margin-left: 240px;
+  }
+
+  &__pink {
+    height: 35px;
+    width: 20px;
+    margin-top: 5px;
+    margin-left: 9px;
+    margin-right: 121px;
+  }
+
+  &__item {
+
+
+    &--active{
+      font-family: Avenir;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 16px;
+      line-height: 160%;
+      color: #212353;
+    }
+
+    &--help {
+      margin-left: 40px;
+    }
+
+    &--requestDemo {
+      color: #212353;
+      letter-spacing: 0.005em;
+    }
+  }
+}
+
+.section1 {
+  &__header {
+    position: absolute;
+    width: 645px;
+    height: 184px;
+    margin-left: 240px;
+    margin-top: 237px;
+    font-family: helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    color: #212353;
+
+  }
+  &__paragraph {
+    position: absolute;
+    width: 380px;
+    height: 120px;
+    left: 240px;
+    top: 471px;
+  
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+  }
+  &__img {
+    position: absolute;
+    max-width: 885px;
+    max-height: 468px;
+    left: 603px;
+    top: 333px;
+    // background: "./assets/twoWomen.png;"
+  }
+}
+
+
