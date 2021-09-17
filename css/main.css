@@ -6,23 +6,37 @@ body {
 }
 
 .header {
+  position: relative;
   width: 1120px;
   height: 60px;
   left: 240px;
   top: 47px;
 }
 
-.header__list {
+.header__nav {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   list-style-type: none;
-  width: 35px;
-  height: 26px;
   font-family: Avenir;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 160%;
   color: #4B5D68;
-  margin-top: 47px;
+  margin-top: 70px;
+  margin-left: 170px;
+}
+
+.header__nav-element {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header__nav-element--active {
+  color: #212353;
+  font-weight: 800;
 }
 
 .header__purple {
@@ -30,7 +44,6 @@ body {
   height: 20px;
   width: 20px;
   margin-top: 74px;
-  margin-left: 240px;
   background: #9C69E2;
   border-radius: 50px;
 }
@@ -40,34 +53,32 @@ body {
   height: 35px;
   width: 20px;
   margin-top: 59px;
-  margin-left: 269px;
+  margin-left: 29px;
   margin-right: 121px;
   background: #F063B8;
   border-radius: 20px;
 }
 
-.header__item {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.header__item--active {
+.header__btnRequestDemo {
+  color: #212353;
   font-family: Avenir;
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
   line-height: 160%;
-  color: #212353;
+  padding: 0;
+  border: none;
+  background: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 447px;
+  margin-top: 64px;
+}
+
+.header__btnRequestDemo-img {
+  margin-left: 20px;
   margin-top: 3px;
-}
-
-.header__item--help {
-  margin-left: 40px;
-}
-
-.header__item--requestDemo {
-  color: #212353;
-  letter-spacing: 0.005em;
 }
 
 .section1__header {
@@ -132,32 +143,5 @@ body {
   padding-right: 37px;
   padding-block: 16px;
   border-color: #9c69e2;
-}
-
-.section2 {
-  margin-top: 903.18px;
-}
-
-.section2__header {
-  max-width: 475px;
-  max-height: 100px;
-  margin-left: 790px;
-  margin-top: 1028.18px;
-  /* SubHeadline */
-  font-family: Helvetica;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 130%;
-  /* or 52px */
-  color: #212353;
-}
-
-.section2__img {
-  position: absolute;
-  max-width: 477px;
-  max-height: 504px;
-  margin-left: 251px;
-  margin-top: 935px;
 }
 /*# sourceMappingURL=main.css.map */
