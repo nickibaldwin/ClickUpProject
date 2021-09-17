@@ -1,16 +1,18 @@
 body {
-  position: relative;
   width: 1600px;
   height: 4350px;
   background: -webkit-gradient(linear, left top, left bottom, from(#F6FAFD), color-stop(19.4%, #FFFFFF));
   background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
 }
 
-.nav__list {
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.header {
+  width: 1120px;
+  height: 60px;
+  left: 240px;
+  top: 47px;
+}
+
+.header__list {
   list-style-type: none;
   width: 35px;
   height: 26px;
@@ -20,38 +22,50 @@ body {
   font-size: 16px;
   line-height: 160%;
   color: #4B5D68;
-  margin-top: 64px;
+  margin-top: 47px;
 }
 
-.nav__purple {
+.header__purple {
+  position: absolute;
   height: 20px;
   width: 20px;
-  margin-top: 10px;
+  margin-top: 74px;
   margin-left: 240px;
+  background: #9C69E2;
+  border-radius: 50px;
 }
 
-.nav__pink {
+.header__pink {
+  position: absolute;
   height: 35px;
   width: 20px;
-  margin-top: 5px;
-  margin-left: 9px;
+  margin-top: 59px;
+  margin-left: 269px;
   margin-right: 121px;
+  background: #F063B8;
+  border-radius: 20px;
 }
 
-.nav__item--active {
+.header__item {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.header__item--active {
   font-family: Avenir;
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
   line-height: 160%;
   color: #212353;
+  margin-top: 3px;
 }
 
-.nav__item--help {
+.header__item--help {
   margin-left: 40px;
 }
 
-.nav__item--requestDemo {
+.header__item--requestDemo {
   color: #212353;
   letter-spacing: 0.005em;
 }
@@ -96,5 +110,54 @@ body {
   max-height: 468px;
   left: 603px;
   top: 333px;
+}
+
+.section1__btn {
+  position: absolute;
+  max-width: 170px;
+  max-height: 60px;
+  background: #9c69e2;
+  border-radius: 50px;
+  font-family: avenir;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 160%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+  margin-top: 657px;
+  margin-left: 240px;
+  padding-left: 37px;
+  padding-right: 37px;
+  padding-block: 16px;
+  border-color: #9c69e2;
+}
+
+.section2 {
+  margin-top: 903.18px;
+}
+
+.section2__header {
+  max-width: 475px;
+  max-height: 100px;
+  margin-left: 790px;
+  margin-top: 1028.18px;
+  /* SubHeadline */
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  /* or 52px */
+  color: #212353;
+}
+
+.section2__img {
+  position: absolute;
+  max-width: 477px;
+  max-height: 504px;
+  margin-left: 251px;
+  margin-top: 935px;
 }
 /*# sourceMappingURL=main.css.map */
