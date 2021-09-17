@@ -1,17 +1,21 @@
 
 body {
-  position: relative;
-width: 1600px;
-height: 4350px;
-
-background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+  // position: relative;
+  width: 1600px;
+  height: 4350px;
+  background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
 }
 
-.nav {
+.header {
+  // position: relative;
+  // position: absolute;
+  width: 1120px;
+  height: 60px;
+  left: 240px;
+  top: 47px;
 
   &__list {
-    position: absolute;
-    display: flex;
+    // display: flex;
     list-style-type: none;
     width: 35px;
     height: 26px;
@@ -21,25 +25,35 @@ background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
     font-size: 16px;
     line-height: 160%;
     color: #4B5D68;
-    margin-top: 64px;
+    margin-top: 47px;
   }
 
   &__purple {
+    position: absolute;
     height: 20px;
     width: 20px;
-    margin-top: 10px;
+    margin-top: 74px;
     margin-left: 240px;
+    background: #9C69E2;
+    border-radius: 50px
+    ;
   }
 
   &__pink {
+    position: absolute;
     height: 35px;
     width: 20px;
-    margin-top: 5px;
-    margin-left: 9px;
+    margin-top: 59px;
+    margin-left: 269px;
     margin-right: 121px;
+    background: #F063B8;
+    border-radius: 20px;
+    ;
   }
 
   &__item {
+    margin-left: 20px;
+    margin-right: 20px;
 
 
     &--active{
@@ -49,6 +63,7 @@ background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
       font-size: 16px;
       line-height: 160%;
       color: #212353;
+      margin-top: 3px;
     }
 
     &--help {
@@ -85,7 +100,6 @@ background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
     height: 120px;
     left: 240px;
     top: 471px;
-  
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
@@ -101,6 +115,61 @@ background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
     top: 333px;
     // background: "./assets/twoWomen.png;"
   }
+
+  &__btn {
+    position: absolute;
+    // display: inline-block;
+    max-width: 170px;
+    max-height: 60px;
+    background: #9c69e2;
+    border-radius: 50px;
+    font-family: avenir;
+    font-style: normal;
+    // font-weight: 800; //design says 800, visually 800 doesn't match
+    font-size: 18px;
+    line-height: 160%;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 657px;
+    margin-left: 240px;
+    padding-left: 37px;
+    padding-right: 37px;
+    padding-block: 16px;
+    border-color: #9c69e2;
+  }
 }
 
+.section2 {
 
+  margin-top: 903.18px;
+  
+  &__header {
+    // position: inherit;
+    max-width: 475px;
+    max-height: 100px;
+    margin-left: 790px;
+    margin-top: 1028.18px;
+
+    /* SubHeadline */
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    /* or 52px */
+
+    // display: flex;
+    // align-items: center;
+
+    color: #212353;
+  }
+
+  &__img {
+    position: absolute;
+    max-width: 477px;
+    max-height: 504px;
+    margin-left: 251px;
+    margin-top: 935px;
+  }
+}
