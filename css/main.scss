@@ -91,27 +91,23 @@ body {
       display: block;
     }
   }
-}
 
-.section1 {
-  &__header {
-    position: absolute;
+  &__headline {
     width: 645px;
-    height: 184px;
-    margin-left: 240px;
-    margin-top: 237px;
-    font-family: helvetica;
+    // height: 184px;
+    // left: 240px;
+    // top: 237px;
+    margin-top: 130px;
+    font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
     font-size: 80px;
     line-height: 110%;
-    display: flex;
     align-items: center;
     color: #212353;
-
   }
+
   &__paragraph {
-    position: absolute;
     width: 380px;
     height: 120px;
     left: 240px;
@@ -123,37 +119,96 @@ body {
     line-height: 160%;
     color: #4B5D68;
   }
+
   &__img {
     position: absolute;
-    max-width: 885px;
-    max-height: 468px;
-    left: 603px;
+    width: 885px;
+    height: 468px;
+    left: 363px;
     top: 333px;
-    // background: "./assets/twoWomen.png;"
   }
 
-  &__btn {
+  &__btnLearnMore {
     position: absolute;
-    // display: inline-block;
     max-width: 170px;
     max-height: 60px;
     background: #9c69e2;
     border-radius: 50px;
     font-family: avenir;
     font-style: normal;
-    // font-weight: 800; //design says 800, visually 800 doesn't match
+    font-weight: 800; //design says 800, visually 800 doesn't match
     font-size: 18px;
     line-height: 160%;
     align-items: center;
     color: #FFFFFF;
-    margin-top: 657px;
-    margin-left: 240px;
+    margin-top: 50px;
     padding-left: 37px;
     padding-right: 37px;
     padding-block: 16px;
-    border-color: #9c69e2;
   }
 }
+
+// .section1 {
+//   &__header {
+//     position: absolute;
+//     width: 645px;
+//     height: 184px;
+//     margin-left: 240px;
+//     margin-top: 237px;
+//     font-family: helvetica;
+//     font-style: normal;
+//     font-weight: bold;
+//     font-size: 80px;
+//     line-height: 110%;
+//     display: flex;
+//     align-items: center;
+//     color: #212353;
+
+//   }
+//   &__paragraph {
+//     position: absolute;
+//     width: 380px;
+//     height: 120px;
+//     left: 240px;
+//     top: 471px;
+//     font-family: Avenir;
+//     font-style: normal;
+//     font-weight: 500;
+//     font-size: 18px;
+//     line-height: 160%;
+//     color: #4B5D68;
+//   }
+//   &__img {
+//     position: absolute;
+//     max-width: 885px;
+//     max-height: 468px;
+//     left: 603px;
+//     top: 333px;
+//     // background: "./assets/twoWomen.png;"
+//   }
+
+//   &__btn {
+//     position: absolute;
+//     // display: inline-block;
+//     max-width: 170px;
+//     max-height: 60px;
+//     background: #9c69e2;
+//     border-radius: 50px;
+//     font-family: avenir;
+//     font-style: normal;
+//     // font-weight: 800; //design says 800, visually 800 doesn't match
+//     font-size: 18px;
+//     line-height: 160%;
+//     align-items: center;
+//     color: #FFFFFF;
+//     margin-top: 657px;
+//     margin-left: 240px;
+//     padding-left: 37px;
+//     padding-right: 37px;
+//     padding-block: 16px;
+//     border-color: #9c69e2;
+//   }
+// }
 
 // .section2 {
 
