@@ -95,28 +95,21 @@ body {
   display: block;
 }
 
-.section1__header {
-  position: absolute;
+.header__headline {
   width: 645px;
-  height: 184px;
-  margin-left: 240px;
-  margin-top: 237px;
-  font-family: helvetica;
+  margin-top: 130px;
+  font-family: Helvetica;
   font-style: normal;
   font-weight: bold;
   font-size: 80px;
   line-height: 110%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   color: #212353;
 }
 
-.section1__paragraph {
-  position: absolute;
+.header__paragraph {
   width: 380px;
   height: 120px;
   left: 240px;
@@ -129,15 +122,15 @@ body {
   color: #4B5D68;
 }
 
-.section1__img {
+.header__img {
   position: absolute;
-  max-width: 885px;
-  max-height: 468px;
-  left: 603px;
+  width: 885px;
+  height: 468px;
+  left: 363px;
   top: 333px;
 }
 
-.section1__btn {
+.header__btnLearnMore {
   position: absolute;
   max-width: 170px;
   max-height: 60px;
@@ -145,17 +138,16 @@ body {
   border-radius: 50px;
   font-family: avenir;
   font-style: normal;
+  font-weight: 800;
   font-size: 18px;
   line-height: 160%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   color: #FFFFFF;
-  margin-top: 657px;
-  margin-left: 240px;
+  margin-top: 50px;
   padding-left: 37px;
   padding-right: 37px;
   padding-block: 16px;
-  border-color: #9c69e2;
 }
 /*# sourceMappingURL=main.css.map */
