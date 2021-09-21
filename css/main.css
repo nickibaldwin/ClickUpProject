@@ -200,4 +200,128 @@ body {
   line-height: 160%;
   color: #4B5D68;
 }
+
+.section3__title {
+  position: absolute;
+  top: 1613px;
+}
+
+.section3__title-features {
+  width: 405px;
+  margin-left: 596.29px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #212353;
+  text-align: center;
+}
+
+.section3__title-text {
+  width: 584px;
+  height: 58px;
+  margin-left: 507.29px;
+  top: 1715px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: #4B5D68;
+}
+
+.section3__searchData {
+  position: absolute;
+  width: 442px;
+  height: 358px;
+  left: 261.29px;
+  top: 1873px;
+  background-image: url(/assets/Rectangle39.svg);
+  background-repeat: no-repeat;
+}
+
+.section3__searchData-ellipse61 {
+  position: absolute;
+  left: 286.07px;
+  top: 43.88px;
+}
+
+.section3__searchData-vector56 {
+  position: absolute;
+  left: 202px;
+  bottom: 160.01px;
+}
+
+.section3__searchData-hero {
+  position: absolute;
+  width: 232px;
+  height: 211px;
+  top: 73px;
+  margin-left: -89.29px;
+}
+
+.section3__searchData-title {
+  width: 200px;
+  height: 50px;
+  left: 172px;
+  top: 49px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 130%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #212353;
+  -webkit-box-pack: flex;
+      -ms-flex-pack: flex;
+          justify-content: flex;
+  position: absolute;
+}
+
+.section3__searchData-text {
+  position: absolute;
+  width: 220px;
+  top: 119px;
+  height: 160px;
+  left: 172px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4B5D68;
+}
+
+.section3__searchData-btn {
+  position: absolute;
+  height: 26px;
+  left: 172px;
+  top: 299px;
+  padding: 0px;
+  background: none;
+  border: none;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.005em;
+  color: #212353;
+}
 /*# sourceMappingURL=main.css.map */
