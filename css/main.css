@@ -238,7 +238,7 @@ body {
   position: absolute;
   width: 442px;
   height: 358px;
-  left: 261.29px;
+  left: 328.29px;
   top: 1873px;
   background-image: url(/assets/Rectangle39.svg);
   background-repeat: no-repeat;
@@ -397,5 +397,57 @@ body {
           align-items: center;
   letter-spacing: 0.005em;
   color: #212353;
+}
+
+.section3__printOut {
+  position: absolute;
+  width: 442px;
+  height: 358px;
+  left: 328.29px;
+  top: 2281px;
+  background-image: url(/assets/printOutRectangle.svg);
+  background-repeat: no-repeat;
+}
+
+.section3__printOut-title {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 172px;
+  top: 49px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 130%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #212353;
+}
+
+.section3__printOut-hero {
+  position: absolute;
+  width: 245px;
+  height: 181px;
+  left: -108.29px;
+  top: 123px;
+}
+
+.section3__printOut-text {
+  position: absolute;
+  width: 220px;
+  height: 160px;
+  left: 172px;
+  top: 119px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4B5D68;
 }
 /*# sourceMappingURL=main.css.map */
