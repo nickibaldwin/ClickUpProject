@@ -424,6 +424,23 @@ body {
       color: #212353;
     }
 
+    &-btn {
+      position: absolute;
+      top: 299px;
+      left: 172px;
+      font-family: Avenir;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 16px;
+      line-height: 160%;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.005em;
+      color: #212353;
+      background: none;
+      border: none;
+    }
+
     &-hero {
       position: absolute;
       width: 245px;
@@ -445,6 +462,93 @@ body {
       font-size: 16px;
       line-height: 160%;
       color: #4B5D68;
+    }
+
+    &-ellipse {
+      position: absolute;
+      top: 22px;
+      left: 340px;
+    }
+  }
+
+  &__securityCode {
+
+    position: absolute;
+    width: 442px;
+    height: 358px;
+    left: 915.28px;
+    top: 2281px;
+    background-image: url(/assets/section3securityCodeRectangle.svg);
+    background-repeat: no-repeat;
+
+    &-title {
+      position: absolute;
+      top: 49px;
+      left: 172px;
+
+      font-family: Helvetica;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 130%;
+
+      display: flex;
+      align-items: center;
+
+      color: #212353;
+    }
+
+    &-btn {
+      position: absolute;
+      top: 299px;
+      left: 172px;
+      font-family: Avenir;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 16px;
+      line-height: 160%;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.005em;
+      color: #212353;
+      background: none;
+      border: none;
+    }
+
+    &-text {
+      position: absolute;
+      width: 220px;
+      height: 160px;
+      left: 172px;
+      top: 119px;
+
+      font-family: Avenir;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 160%;
+
+      color: #4B5D68;
+    }
+
+    &-hero {
+      position: absolute;
+      width: 230px;
+      height: 201px;
+      left: -97.28px;
+      top: 86px;
+    }
+
+    &-vector {
+      position: absolute;
+      left: 16px;
+      top: 6px;
+    }
+
+    &-ellipse {
+      position: absolute;
+      left: 347px;
+      top: 278px;
     }
   }
 }
