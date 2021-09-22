@@ -94,9 +94,6 @@ body {
 
   &__headline {
     width: 645px;
-    // height: 184px;
-    // left: 240px;
-    // top: 237px;
     margin-top: 130px;
     font-family: Helvetica;
     font-style: normal;
@@ -136,7 +133,7 @@ body {
     border-radius: 50px;
     font-family: avenir;
     font-style: normal;
-    font-weight: 800; //design says 800, visually 800 doesn't match
+    font-weight: 800;
     font-size: 18px;
     line-height: 160%;
     align-items: center;
@@ -151,14 +148,6 @@ body {
 
 
 .section2 {
-
-  // margin-top: 903.18px;
-  // background: rgba(240, 99, 184, 0.15);
-  // border-radius: 50px;
-  // margin-top: 903.18px;
-  // width: 1117px;
-  // height: 560px;
-  // margin-left: 240px;
 
   position: absolute;
   width: 1117px;
@@ -550,5 +539,112 @@ body {
       left: 347px;
       top: 278px;
     }
+  }
+}
+
+.section5 {
+  position: absolute;
+  width: 1118px;
+  height: 709px;
+  left: 242px;
+  top: 2789px;
+  background-color: #9c69e2;
+  border-radius: 50px;
+
+  &__title {
+    position: absolute;
+    width: 405px;
+    height: 52px;
+    left: 93px;
+    top: 109px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+  }
+
+  &__john {
+
+      position: absolute;
+      width: 645px;
+      height: 330px;
+      left: 93px;
+      top: 249px;
+
+      background: #FFFFFF;
+      box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+      border-radius: 20px;
+
+      &-subHeading {
+        position: absolute;
+        width: 170px;
+        height: 29px;
+        left: 190px;
+        top: 80px;
+  
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 160%;
+        /* identical to box height, or 29px */
+  
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.005em;
+  
+        /* 2 */
+  
+        color: #212353;
+      }
+  
+      &-website {
+        position: absolute;
+        width: 101px;
+        height: 22px;
+        left: 190px;
+        top: 109px;
+  
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 160%;
+        /* or 22px */
+  
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.01em;
+
+        color: #9C69E2;
+      }
+  
+      &-text {
+        position: absolute;
+        width: 385px;
+        height: 130px;
+        left: 190px;
+        top: 150px;
+  
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 180%;
+        color: #4B5D68;
+      }   
+
+      &-img {
+        position: absolute;
+        top: 60px;
+        left: 70px;
+      }
   }
 }
