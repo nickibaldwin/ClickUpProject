@@ -582,7 +582,7 @@ body {
       box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
       border-radius: 20px;
 
-      &-subHeading {
+      &-name {
         position: absolute;
         width: 170px;
         height: 29px;
@@ -605,7 +605,7 @@ body {
         color: #212353;
       }
   
-      &-website {
+      &-subHeadline {
         position: absolute;
         width: 101px;
         height: 22px;
@@ -646,5 +646,92 @@ body {
         top: 60px;
         left: 70px;
       }
+  }
+
+  &__jenny {
+
+    position: absolute;
+    width: 360px;
+    height: 330px;
+    left: 758px;
+    top: 249px;
+    // background-image: url(/assets/linearGradient.svg);
+    // background-repeat: no-repeat;
+    background: linear-gradient(270deg, #9c69e2 9.75%, white 100%);
+    /* 3 */
+
+    border: 1px solid #9C69E2;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+    &-name {
+      position: absolute;
+      width: 170px;
+      height: 29px;
+      left: 160px;
+      top: 75px;
+
+      font-family: Avenir;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 160%;
+      /* identical to box height, or 29px */
+
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.005em;
+
+      /* 2 */
+
+      color: #212353;
+    }
+
+    &-subHeadline {
+      position: absolute;
+      width: 101px;
+      height: 22px;
+      left: 160px;
+      top: 104px;
+
+      font-family: Avenir;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 160%;
+      /* or 22px */
+
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.01em;
+
+      color: #9C69E2;
+    }
+
+    &-text {
+      position: absolute;
+      width: 180px;
+      height: 130px;
+      left: 160px;
+      top: 145px;
+
+      font-family: Avenir;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 180%;
+      /* or 32px */
+
+
+      /* 1 */
+
+      color: #4B5D68;
+    }
+
+    &-img {
+      position: absolute;
+      top: 55px;
+      left: 40px;
+    }
   }
 }

@@ -603,7 +603,7 @@ body {
   border-radius: 20px;
 }
 
-.section5__john-subHeading {
+.section5__john-name {
   position: absolute;
   width: 170px;
   height: 29px;
@@ -626,7 +626,7 @@ body {
   color: #212353;
 }
 
-.section5__john-website {
+.section5__john-subHeadline {
   position: absolute;
   width: 101px;
   height: 22px;
@@ -666,5 +666,87 @@ body {
   position: absolute;
   top: 60px;
   left: 70px;
+}
+
+.section5__jenny {
+  position: absolute;
+  width: 360px;
+  height: 330px;
+  left: 758px;
+  top: 249px;
+  background: -webkit-gradient(linear, right top, left top, color-stop(9.75%, #9c69e2), to(white));
+  background: linear-gradient(270deg, #9c69e2 9.75%, white 100%);
+  /* 3 */
+  border: 1px solid #9C69E2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.section5__jenny-name {
+  position: absolute;
+  width: 170px;
+  height: 29px;
+  left: 160px;
+  top: 75px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 160%;
+  /* identical to box height, or 29px */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.005em;
+  /* 2 */
+  color: #212353;
+}
+
+.section5__jenny-subHeadline {
+  position: absolute;
+  width: 101px;
+  height: 22px;
+  left: 160px;
+  top: 104px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 22px */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.01em;
+  color: #9C69E2;
+}
+
+.section5__jenny-text {
+  position: absolute;
+  width: 180px;
+  height: 130px;
+  left: 160px;
+  top: 145px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 180%;
+  /* or 32px */
+  /* 1 */
+  color: #4B5D68;
+}
+
+.section5__jenny-img {
+  position: absolute;
+  top: 55px;
+  left: 40px;
 }
 /*# sourceMappingURL=main.css.map */
