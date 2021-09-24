@@ -749,4 +749,28 @@ body {
   top: 55px;
   left: 40px;
 }
+
+.section5__slider {
+  position: absolute;
+  width: 55px;
+  height: 10px;
+  left: 93px;
+  top: 639px;
+}
+
+.section5__group57 {
+  position: absolute;
+  width: 40px;
+  height: 14px;
+  left: 962px;
+  top: 637px;
+}
+
+.section5__group56 {
+  position: absolute;
+  width: 20px;
+  height: 14px;
+  left: 1022px;
+  top: 637px;
+}
 /*# sourceMappingURL=main.css.map */
