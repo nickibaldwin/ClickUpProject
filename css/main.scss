@@ -5,6 +5,7 @@ body {
   height: 4350px;
   margin: 0px;
   background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+  background-image: url(/assets/clickupDesign.svg);
 }
 
 .header {
@@ -1039,10 +1040,59 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 250%;
-    /* or 40px */
 
+    color: #212353;
+  }
 
-    /* 2 */
+  &__info {
+    position: absolute;
+    width: 335px;
+    height: 60px;
+    left: 240px;
+    top: 4176px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+
+    letter-spacing: 0.01em;
+
+    color: #212353;
+  }
+
+  &__address {
+    position: absolute;
+    width: 335px;
+    height: 65px;
+    left: 240px;
+    top: 4101px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    
+    letter-spacing: 0.01em;
+    
+    color: #212353;
+  }
+
+  &__logoTitle {
+
+    position: absolute;
+    width: 153px;
+    height: 30px;
+    left: 309px;
+    top: 4004px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 160%;
 
     color: #212353;
   }
