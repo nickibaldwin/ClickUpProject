@@ -1,7 +1,7 @@
 {
-  "name": "ClickUpProject",
+  "name": "DesignProject",
   "version": "1.0.0",
-  "description": "ClickUp Mini Project",
+  "description": "Design Mini Project",
   "main": "index.js",
   "dependencies": {
     "scss": "^0.2.4"
@@ -12,13 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nickibaldwin/ClickUpProject.git"
+    "url": "git+https://github.com/nickibaldwin/DesignProject.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nickibaldwin/ClickUpProject/issues"
+    "url": "https://github.com/nickibaldwin/DesignProject/issues"
   },
-  "homepage": "https://github.com/nickibaldwin/ClickUpProject#readme"
+  "homepage": "https://github.com/nickibaldwin/DesignProject#readme"
 }
